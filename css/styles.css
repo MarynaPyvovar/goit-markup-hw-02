@@ -1,0 +1,23 @@
+body {
+  font-family: Roboto;
+  color: black;
+}
+.logo-header {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: black;
+}
+.logo-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #ffffff;
+}
+.logo-color {
+  color: #2196f3;
+}
