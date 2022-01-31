@@ -1,23 +1,70 @@
+:root {
+  --p-color: #757575;
+  --accent-color: #2196f3;
+  --title-color: #212121;
+  --white-color: #ffffff;
+}
 body {
   font-family: Roboto;
-  color: black;
+  color: var(--p-color);
+}
+.list {
+  list-style: none;
+}
+/* header */
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
 }
 .logo-header {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  color: black;
+  color: #000000;
 }
-.logo-footer {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  color: #ffffff;
-}
+
 .logo-color {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+.site-nav .link {
+  color: var(--title-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* герой */
+.hero {
+  background-color: cadetblue;
+}
+.hero-title {
+  color: var(--white-color);
+}
+/* наши преимущества */
+.benefits-list .title {
+  color: var(--title-color);
+}
+/* чем мы занимаемся */
+.section-title {
+  color: var(--title-color);
+}
+/* наша команда */
+.member-list .member {
+  color: var(--title-color);
+}
+/* подвал */
+.logo-footer {
+  color: var(--white-color);
+}
+.address {
+  color: var(--white-color);
+}
+.address .address-link {
+  color: var(--white-color);
+}
+
+/* portfolio */
+.example-list .example-title {
+  color: var(--title-color);
 }
