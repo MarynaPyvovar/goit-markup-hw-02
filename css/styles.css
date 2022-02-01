@@ -68,3 +68,18 @@ body {
 .example-list .example-title {
   color: var(--title-color);
 }
+.button {
+}
+.btn-s {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+.btn-p {
+  color: var(--title-color);
+  background-color: #eeeeee;
+}
+.btn-p:hover,
+.btn-p:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
