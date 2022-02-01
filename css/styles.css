@@ -7,6 +7,7 @@
 body {
   font-family: Roboto;
   color: var(--p-color);
+  background-color: #e5e5e5;
 }
 .list {
   list-style: none;
@@ -33,10 +34,17 @@ body {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+.contacts .link {
+  color: var(--title-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
 
 /* герой */
 .hero {
-  background-color: cadetblue;
+  background-color: #2f303a;
 }
 .hero-title {
   color: var(--white-color);
