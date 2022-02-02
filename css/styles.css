@@ -70,13 +70,20 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+.button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
 .btn-s {
   color: var(--white-color);
   background-color: var(--accent-color);
   font-weight: 700;
-  font-size: 16px;
   line-height: 1.87;
-  text-align: center;
   letter-spacing: 0.06em;
 }
 
@@ -90,7 +97,6 @@ body {
   text-transform: uppercase;
 }
 .benefit {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.74;
   letter-spacing: 0.03em;
@@ -116,7 +122,6 @@ body {
   letter-spacing: 0.03em;
 }
 .member-prof {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -149,13 +154,6 @@ body {
 }
 
 /* portfolio */
-.example-list .example-title {
-  color: var(--title-color);
-}
-.button {
-  font-family: inherit;
-}
-
 .btn-p {
   color: var(--title-color);
   background-color: var(--background-button);
@@ -164,4 +162,16 @@ body {
 .btn-p:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
+}
+.example-list .title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.example-list .product {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
