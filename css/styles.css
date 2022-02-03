@@ -6,7 +6,8 @@
   --logo-color: #000000;
   --background-section: #e5e5e5;
   --background-hero: #2f303a;
-  --background-button: #f5f4fa;
+  --background-btn-p: #f5f4fa;
+  --background-btn-s: #188ce8;
   --contact-color: #c4c4c4;
 }
 body {
@@ -86,6 +87,10 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
 }
+.btn-s:hover,
+.btn-s:focus {
+  background-color: var(--background-btn-s);
+}
 
 /* наши преимущества */
 .benefits-list .title {
@@ -156,7 +161,7 @@ body {
 /* portfolio */
 .btn-p {
   color: var(--title-color);
-  background-color: var(--background-button);
+  background-color: var(--background-btn-p);
 }
 .btn-p:hover,
 .btn-p:focus {
