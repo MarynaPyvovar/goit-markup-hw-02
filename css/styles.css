@@ -50,6 +50,9 @@ body {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+.site-nav .current {
+  color: var(--accent-color);
+}
 .contacts .link {
   color: var(--title-color);
 }
@@ -118,6 +121,12 @@ body {
 }
 
 /* наша команда */
+.team {
+  background-color: var(--background-btn-p);
+}
+.member-card {
+  background-color: var(--white-color);
+}
 .member {
   color: var(--title-color);
   font-weight: 500;
@@ -161,12 +170,15 @@ body {
 /* portfolio */
 .btn-p {
   color: var(--title-color);
-  background-color: var(--background-btn-p);
+  background-color: var(--white-color);
 }
 .btn-p:hover,
 .btn-p:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
+}
+.example-card {
+  background-color: var(--example-card-color);
 }
 .example-list .title {
   color: var(--title-color);
